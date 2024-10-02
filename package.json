@@ -1,7 +1,7 @@
 {
-  "name": "dopefolio",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "I am a Full Stack Web Developer dedicated to creating robust web applications that enhance user experience and drive product success. With a strong foundation in both front-end and back-end technologies, I am passionate about building scalable solutions that meet the needs of users and businesses alike. My approach focuses on clean code, responsive design, and seamless functionality, ensuring that every project I undertake not only meets but exceeds expectations. Explore my portfolio to see how I can help bring your vision to life!",
   "main": "index.js",
   "scripts": {
     "compile:scss": "node-sass sass/main.scss css/style.css -w",
@@ -9,7 +9,7 @@
     "compress:css": "node-sass css/style.css css/style.css --output-style compressed",
     "build": "npm-run-all prefix:css compress:css"
   },
-  "author": "",
+  "author": "Felipe Rogai",
   "license": "GPL-3.0",
   "devDependencies": {
     "autoprefixer": "^10.3.1",
